@@ -1,6 +1,7 @@
 /cmake-build-debug/
 /onnx
 /x64
+/.idea
 Sprotect.cpp
 SProtectSDK.h
 SProtectSDK64.lib
