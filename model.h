@@ -1,8 +1,10 @@
-//
-// Created by xvbow on 25-2-24.
-//
+#pragma once
 
-#ifndef MODEL_H
-#define MODEL_H
+const unsigned char yolomodel[] = {
+    0x08,
+    0x08,
+    0x12,
+    0x07,
+};
 
-#endif //MODEL_H
+const size_t yolomodel_size = 4;
