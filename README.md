@@ -18,8 +18,10 @@ cd model2dll
 ## 编译为DLL
 确保你的电脑已经安装了cmake
 ```powershell
-cmake -DCMAKE_BUILD_TYPE=Release .
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build . --config Release
 ```
 执行完毕之后<br>
-文件将在 `model\Release`中 `model.dll`
+文件将在 `build\model\Release`中 `model.dll`
