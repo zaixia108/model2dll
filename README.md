@@ -25,3 +25,12 @@ cmake --build . --config Release
 ```
 执行完毕之后<br>
 文件将在 `build\model\Release`中 `model.dll`
+
+
+## 添加了python的自动转换脚本
+将要转换的模型文件放到models文件夹后<br>
+运行以下命令<br>
+```powershell
+python trans_model2dll.py
+```
+等待运行结束后，模型文件将在dlls文件夹
