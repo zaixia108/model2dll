@@ -12,6 +12,8 @@ os.system('mkdir dlls')
 
 dir_path = os.listdir('models')
 for item in dir_path:
+    if item.split('.')[-1] == 'txt':
+        continue
     print(f'processing {item}')
     name = item.split('.')[0]
     shutil.copy(f'models/{item}', 'model.onnx')
